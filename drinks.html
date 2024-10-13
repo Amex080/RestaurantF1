@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>DRINKS SECTION</h1>
+
+    <section id="desserts-menu">
+        <h2>Our available drinks</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="Image/Coca Cola.png" alt="Fried Rice">
+                <div class="menu-item-details">
+                    <h3>Coca Cola </h3>
+                    <p>₦1,000</p>
+                    <button class="add-to-cart" data-item="Coca Cola" data-price="1,000">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Image/Fanta.png" alt="Jollof Rice">
+                <div class="menu-item-details">
+                    <h3>Fanta</h3>
+                    <p>₦1,000</p>
+                    <button class="add-to-cart" data-item="Fanta" data-price="1,000">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Image/Hollandia.png" alt="Pasta">
+                <div class="menu-item-details">
+                    <h3>Hollandia</h3>
+                    <p>₦2,000</p>
+                    <button class="add-to-cart" data-item="Hollandia" data-price="2000">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Image/Color Block Fabric Water Bottle Holder Sewing Tutorial.png" alt="Beans">
+                <div class="menu-item-details">
+                    <h3>Water</h3>
+                    <p>₦500</p>
+                    <button class="add-to-cart" data-item="Water" data-price="500">Add to Cart</button>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+    <div id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: ₦<span id="total-price">0.00</span></p>
+        <button id="checkout">Checkout</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bellonis Restaurant. Designed by Amex Team All Right Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

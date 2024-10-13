@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Protein Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>PROTEIN SECTION</h1>
+
+    <section id="desserts-menu">
+        <h2>Our available protein</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <img src="Image/Chicken.png" alt="Chicken">
+                <div class="menu-item-details">
+                    <h3>Chicken </h3>
+                    <p>₦2,000</p>
+                    <button class="add-to-cart" data-item="Chicken" data-price="2000">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Image/Meat.png" alt="Meat">
+                <div class="menu-item-details">
+                    <h3>Beef</h3>
+                    <p>₦1,000</p>
+                    <button class="add-to-cart" data-item="Beef" data-price="1000">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Image/Turkey.png" alt="Turkey">
+                <div class="menu-item-details">
+                    <h3>Turkey</h3>
+                    <p>₦5,000</p>
+                    <button class="add-to-cart" data-item="Turkey" data-price="5000">Add to Cart</button>
+                </div>
+            </div>
+            <div class="menu-item">
+                <img src="Image/Fish.png" alt="Fish">
+                <div class="menu-item-details">
+                    <h3>Fish</h3>
+                    <p>₦800</p>
+                    <button class="add-to-cart" data-item="Fish" data-price="800">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="cart">
+        <h2>Your Cart</h2>
+        <ul id="cart-items"></ul>
+        <p>Total: ₦<span id="total-price">0.00</span></p>
+        <button id="checkout">Checkout</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Bellonis Restaurant. Designed by Amex Team All Right Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
